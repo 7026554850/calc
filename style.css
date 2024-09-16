@@ -1,0 +1,88 @@
+body {
+    box-sizing: border-box;
+}
+
+#outerBox {
+    background-color: darkolivegreen;
+    width: 600px;
+    height: 600px;
+    border: 10px solid black;
+    border-radius: 5px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#displayBox {
+    background-color: grey;
+    border: 5px solid black;
+    margin: 20px;
+    flex : 1;
+}
+
+#buttonBox {
+    background-color: grey;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 8px;
+    flex: 6;
+    display: flex;
+    justify-content: center;
+}
+
+#numberKeys {
+    flex : 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#row1, #row2, #row3, #row4 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#operandKeys {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+#col1, #col2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+button {
+    flex: 1;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: antiquewhite;
+    padding: 0;
+    border-width: 2px;
+}
+
+.zero {
+    flex: 2;
+}
+
+.okey {
+    background-color: orange;
+}
+
+.nkey {
+    background-color: blue;
+}
+
+.display {
+    color: antiquewhite;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
